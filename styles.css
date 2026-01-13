@@ -8,15 +8,39 @@ header {
 body {
     background-color: rgb(180, 100, 94);
     background-image: url(images/mobilebackground.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     width: auto;
+    margin: 15px;
+    height: 667px;
 }
 
 section {
     background-color: rgb(209, 209, 209);
     border-radius: 30px;
     width: 50%;
+}
+section ul li a:hover {
+    color: rgb(116, 9, 216);
+}
+
+section ul li a {
+    transition: color 300ms ease-in;   
+}
+
+section {
+    animation-name: textcolorchange;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes textcolorchange {
+    0% {background-color: rgb(246, 238, 238);}
+    25% {background-color: rgb(237, 226, 226);}
+    50% {background-color: rgb(233, 213, 213);}
+    75% {background-color: rgb(232, 206, 206);}
+    100% {background-color: rgb(230, 180, 180);}
 }
 
 h3 {
@@ -29,10 +53,6 @@ a {
     color: rgb(36, 26, 25);
 }
 
-ul :hover {
-    color: blueviolet;
-}
-
 section ul {
     list-style: none;
     padding-left: 20px;
@@ -42,7 +62,7 @@ section ul {
 
 #top2, #bottom2 {
     display: flex;
-    gap: 5%;
+    gap: 20px;
     margin: 5% auto;
     max-width: 750px;
 }
@@ -51,10 +71,13 @@ footer {
     text-align: center;
     line-height: 4px;
     padding-top: 1px;
+    font-family: "Imprima", sans-serif;
+    color: rgb(230, 230, 230);
+    font-size: 1.125em;
 }
 
 h1 {
-    padding: 50px 0 0 0;
+    padding: 15px 0 0 0;
     font-family: "Orbitron", sans-serif;
     font-size: 1.875em;
     color: rgb(230, 230, 230);
@@ -73,17 +96,73 @@ h3 {
     margin-bottom: -7px;
 }
 
-footer {
-    color: rgb(230, 230, 230);
-}
-
 footer a {
     color: rgb(230, 230, 230);
 }
 
 @media only screen and (min-width: 600px) {
-section {
-    
-}
+header {
+    background-image: url(images/desktopbanner.jpg);
+    height: 250px;
+    width: auto;
+    background-repeat: no-repeat;
 }
 
+body {
+    background-image: url(images/desktopbackground.jpg);
+    height: 750px;
+    width: auto;
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin: 10px;
+    padding-bottom: 60px;
+}
+
+section {
+    border-radius: 40px;
+    width: 275px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+section ul {
+    font-size: 1.563em;
+    line-height: 175%;
+}
+
+h1 {
+    padding: 0;
+    font-size: 3.75em;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 1.8755em;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 1.875em;
+    margin-bottom: -7px;
+}
+
+#top2, #bottom2 {
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+footer {
+    line-height: 4px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+}
+
+}

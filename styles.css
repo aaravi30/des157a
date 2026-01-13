@@ -28,7 +28,7 @@ section ul li a {
 
 section {
     animation-name: textcolorchange;
-    animation-duration: 100s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }

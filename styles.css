@@ -23,22 +23,22 @@ section ul li a:hover {
 }
 
 section ul li a {
-    transition: color 300ms ease-in;   
+    transition: color 500ms ease-in;   
 }
 
 section {
     animation-name: textcolorchange;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 @keyframes textcolorchange {
-    0% {background-color: rgb(246, 238, 238);}
-    25% {background-color: rgb(237, 226, 226);}
-    50% {background-color: rgb(233, 213, 213);}
-    75% {background-color: rgb(232, 206, 206);}
-    100% {background-color: rgb(230, 180, 180);}
+    0% {background-color: rgb(226, 216, 226);}
+    25% {background-color: rgb(226, 198, 229);}
+    50% {background-color: rgb(216, 203, 203);}
+    75% {background-color: rgb(234, 209, 209);}
+    100% {background-color: rgb(234, 200, 200);}
 }
 
 h3 {

@@ -10,9 +10,7 @@ body {
     background-image: url(images/mobilebackground.jpg);
     background-position: center;
     background-size: cover;
-    width: auto;
     margin: 15px;
-    height: 667px;
 }
 
 section {
@@ -110,8 +108,6 @@ header {
 
 body {
     background-image: url(images/desktopbackground.jpg);
-    height: 750px;
-    width: auto;
     background-repeat: no-repeat;
     padding: 30px;
     margin: 10px;
@@ -156,6 +152,9 @@ h3 {
     gap: 20px;
     padding-top: 50px;
     justify-content: center;
+    max-width: 1200px;
+    min-width: 800px;
+    margin: auto;
 }
 
 footer {

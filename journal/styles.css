@@ -2,15 +2,7 @@ header {
     height: 80px;
     width: auto;
     text-align: center;
-}
-
-body {
-    background-color: rgb(180, 100, 94);
-    background-position: center;
-    background-size: cover;
-    margin: 15px;
-    font-family: "Imprima", sans-serif;
-    font-size: 1em;
+    padding-bottom: 40px;
 }
 
 a {
@@ -18,77 +10,50 @@ a {
     color: rgb(36, 26, 25);
 }
 
+h1 {
+    padding: 15px 0 0 0;
+    font-family: "Orbitron", sans-serif;
+    font-size: 4em;
+    color: rgb(230, 230, 230);
+}
+
 article{
     background-color: rgb(209, 209, 209);
     border-radius: 30px;
     margin: 15px;
+    padding-bottom: 30px;
 }
 
-h1 {
-    padding: 15px 0 0 0;
-    font-family: "Orbitron", sans-serif;
-    font-size: 2em;
-    color: rgb(230, 230, 230);
+body {
+    background-color: rgb(180, 100, 94);
+    background-position: center;
+    background-size: cover;
+    font-family: "Imprima", sans-serif;
+    font-size: 1em;
+    padding: 30px;
+    padding-top: 0;
+    margin: 10px;
+    padding-bottom: 60px;
+    color: rgb(36, 26, 25);
 }
 
 h2 {
     font-family: "Imprima", sans-serif;
-    font-size: 1.8em;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 7px;
-    margin: 0;
-}
-
-h3 {
-    font-family: "Inria Sans", sans-serif;
-    font-size: 1.125em;
-    padding-left: 20px;
-    margin: 0;
-    padding-bottom: 3px;
+    font-size: 2.5em;
+    padding: 60px 60px 0px 60px;
+    margin-bottom: 5px;
 }
 
 time{
     font-family: "Inria Sans", sans-serif;
     font-size: 1.125em;
     padding-left: 20px;
+    padding: 10px 60px 0px 60px;
 }
 
 p{
     padding: 20px;
     padding-top: 0;
     margin-top: 10px;
-}
-
-@media only screen and (min-width: 600px) {
-header {
-    height: 150px;
-    width: auto;
-    background-repeat: no-repeat;
-}
-
-body {
-    padding: 30px;
-    margin: 10px;
-    padding-bottom: 60px;
-    color: rgb(36, 26, 25);
-}
-
-h1 {
-    padding: 0;
-    font-size: 5em;
-    margin-bottom: 0px;
-}
-
-h2 {
-    font-size: 3em;
-    margin-top: 10px;
-}
-
-h3 {
-    font-size: 1.2em;
-    margin-bottom: -7px;
-    margin-bottom: 2px;
-}
-
+    padding: 10px 60px 0px 60px;
 }

@@ -1,0 +1,18 @@
+header {
+    height: 80px;
+    width: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: rgb(180, 100, 94);
+    text-align: center;
+}
+
+h1 {
+    padding: 15px 0 0 0;
+    font-family: "Orbitron", sans-serif;
+    font-size: 3em;
+    color: rgb(230, 230, 230);
+}

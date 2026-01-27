@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+</head>
+<body>
+    <h1>Experiment 2</h1>
+    <p></p>
+    <script>
+        //The program will ask users what color is their favorite out of three options. Once they type in their answer the typography on the page will change to that color. 
+        //I worked on this for over an hour and I was really trying to get an array to work but I couldn't get it to work. 
+        var welcome = prompt("Hello, what is your favorite color out of these three: green, purple, pink?")
+        
+        function pickColor (){
+            if(welcome === 'green'){
+                document.querySelector('body').style.color ='green';
+            }
+            else if(welcome === 'purple'){
+                document.querySelector('body').style.color ='purple';
+            }
+            else if(welcome === 'pink'){
+                document.querySelector('body').style.color ='pink';
+            }
+            return welcome;
+        }
+
+        pickColor();
+
+    </script>
+</body>
+</html>

@@ -2,7 +2,7 @@ header {
     height: 80px;
     width: auto;
     text-align: center;
-    padding-bottom: 40px;
+    margin: 60px;
 }
 
 a {
@@ -20,7 +20,7 @@ h1 {
 article{
     background-color: rgb(209, 209, 209);
     border-radius: 30px;
-    margin: 15px;
+    margin: 0 100px 0 100px;
     padding-bottom: 30px;
 }
 
@@ -29,24 +29,25 @@ body {
     background-position: center;
     background-size: cover;
     font-family: "Imprima", sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     padding: 30px;
     padding-top: 0;
     margin: 10px;
     padding-bottom: 60px;
     color: rgb(36, 26, 25);
+    line-height: 1.5em;
 }
 
 h2 {
     font-family: "Imprima", sans-serif;
     font-size: 2.5em;
     padding: 60px 60px 0px 60px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 time{
     font-family: "Inria Sans", sans-serif;
-    font-size: 1.125em;
+    font-size: 1.2em;
     padding-left: 20px;
     padding: 10px 60px 0px 60px;
 }

@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(60, 73, 146);
+    color: #333;
+    line-height: 1.5em;
+    max-width: 1200px;
+    max-height: 750px;
+    height: 750px;
+    width: 1200px;
+    font-family: "Inter", sans-serif;
+}
+
+.top2{
+    display: flex;
+    gap: 5%;
+}
+
+.top2 h1{
+    background-color: rgb(200, 182, 115);
+    padding: 30px;
+    border-radius: 15px;
+    width: fit-content;
+    flex: 1;
+}
+
+.top2 h2{
+    color: rgb(217, 217, 217);
+    flex: 1;
+    padding-top: 30px;
+    transform: translate(30%, 0%);
+    font-size: 2.75em;
+    font-weight: 800;
+}
+
+.line1 p{
+    background-color: rgb(217, 217, 217);
+    padding: 30px;
+    border-radius: 4px;
+    width: 700px;
+    transform: translate(0%, -300%);
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.line2 p{
+    background-color: rgb(105, 0, 0);
+    padding: 30px;
+    border-radius: 4px;
+    width: 800px;
+    transform: translate(0%, -330%);
+    color: rgb(217, 217, 217);
+    margin-top: 0px;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header, footer {
+    background-color: #ccc;
+    text-align: center;
+    height: 125px;
+    display: grid;
+    place-content: center;
+}
+
+main {
+    display: flex;
+    width: 900px;
+    margin: auto;
+   
+    box-sizing: border-box;
+}
+
+section {
+    flex: 1;
+    padding: 40px;
+}
+
+/*Madlib Page*/
+
+.bottom2{
+    display: flex;
+    gap: 20%;
+}
+
+.bottom2 img{
+    padding-top: 20%;
+}
+
+h1{
+    background-color: rgb(200, 182, 115);
+    padding: 30px;
+    border-radius: 15px;
+    width: fit-content;
+    font-size: 3.125em;
+    font-weight: 800;
+}
+
+form{
+    display: flex;
+    gap: 5%;
+}
+
+.formtop{
+    flex: 1;
+}
+
+.formbottom{
+    flex: 1;
+}
+
+label{
+   font-size: 1.5em; 
+   color: rgb(217, 217, 217);
+   font-weight: 700;
+   padding-bottom: 15px;
+}
+
+input{
+    background-color: rgb(217, 217, 217);
+    border: 0;
+    border-radius: 6px;
+    width: 185px;
+    height: 35px;
+    padding: 10px;
+}
+
+button{
+    background-color: rgb(217, 217, 217);
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+}
+
+
+/* swap the display value for
+these two rules below to design
+both the question and answer
+portions of the page. */
+#madlib-questions {
+    display: none;
+}
+
+#madlib-output {
+    display: block;
+}
+
+form input, form label {
+    display: block;
+}
+
+form input {
+    margin-bottom: 1em;
+}
+
+span {
+    font-weight: bold;;
+}

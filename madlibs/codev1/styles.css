@@ -143,11 +143,11 @@ these two rules below to design
 both the question and answer
 portions of the page. */
 #madlib-questions {
-    display: none;
+    display: block;
 }
 
 #madlib-output {
-    display: block;
+    display: none;
 }
 
 form input, form label {

@@ -34,9 +34,10 @@ body{
     padding: 30px;
     border-radius: 4px;
     width: 700px;
-    transform: translate(0%, -390%);
+    /* transform: translate(0%, -390%); */
     font-size: 1.6em;
     font-weight: 400;
+    margin: 0px;
 }
 
 .line2 p{
@@ -44,9 +45,9 @@ body{
     padding: 30px;
     border-radius: 4px;
     width: 800px;
-    transform: translate(0%, -425%);
+    /* transform: translate(0%, -425%); */
     color: rgb(217, 217, 217);
-    margin-top: 0px;
+    margin: 0px;
     font-size: 1.6em;
     font-weight: 400;
 }

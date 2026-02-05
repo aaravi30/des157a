@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,55 +15,61 @@
     </head>
     <body>
         <main>
-            <section id="madlib-questions">
-                <h1>Tell us</h1>
+            <section id="madlib-questions" class="showing">
+                <header>
+                    <h1>Tell us</h1>
+                </header>
                 <div class="bottom2">
                     <img src="images/microphone.jpg" alt="microphone" height="349" width="352">
                     <form>
                         <div class="formtop">
                             <label for="timeOfDay">Time of day:</label>
-                            <input type="text" name="timeOfDay" id="timeOfDay" required>
-
-                            <label for="city">City:</label>
-                            <input type="text" name="city" id="city" required>
+                            <input type="text" name="timeOfDay" id="timeOfDay">
 
                             <label for="person1">Person:</label>
-                            <input type="text" name="person1" id="person1" required>
-                            <button type="submit">Submit</button>
+                            <input type="text" name="person1" id="person1">
+
+                            <label for="number">Number:</label>
+                            <input type="text" name="number" id="number">
+
+                            <button type="submit" id="goToOutput">Submit</button>
                         </div>
 
                         <div class="formbottom">
 
-                            <label for="thing">Thing:</label>
-                            <input type="text" name="thing" id="thing" required>
+                            <label for="city">City:</label>
+                            <input type="text" name="city" id="city">
 
-                            <label for="number">Number:</label>
-                            <input type="text" name="number" id="number" required>
+                            <label for="thing">Thing:</label>
+                            <input type="text" name="thing" id="thing">
 
                             <label for="person2">Person:</label>
-                            <input type="text" name="person2" id="person2" required>
+                            <input type="text" name="person2" id="person2">
                         </div>
                     </form>
                 </div>
+
+                <div id="error"></div>
+
             </section>
 
-
-            <section id="madlib-output">
+            <section id="madlib-output" class="hidden">
                 <div class="top2">
-                    <h1>Breaking News</h1>
-                    <h2>Time of day</h2>
+                    <header>
+                        <h1>Breaking News</h1>
+                    </header>
+                    <h2 id="timeOfDayResult">Time of day</h2>
                 </div>
 
                 <img src="images/reporter.png" alt="reporter" height="652" width="599">
                 
                 <div class="line1">
-                    <p>In <span>city</span>, <span>person</span> was launched into a/an <span>thing</span>.</p>
+                    <p>In <span id="cityResult">city</span>, <span id="person1Result">person</span> was launched into a/an <span id="thingResult">thing</span>.</p>
                 </div>
 
                 <div class="line2">
-                    <p>This has happened <span>number</span> times,  <span>person</span> is the key suspect.</p>
+                    <p>This has happened <span id="numberResult">number</span> time(s), <span id="person2Result">person</span> is the key suspect.</p>
                 </div>
-
             </section>
         </main>
     </body>

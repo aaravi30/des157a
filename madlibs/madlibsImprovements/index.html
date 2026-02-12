@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MadLibs Code V1</title>
+        <!-- Add normalize CSS and Google fonts -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <!-- Add your custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">  
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <section id="madlib-questions" class="showing">
+                <header>
+                    <h1>News Interview</h1>
+                </header>
+                <div class="bottom2">
+                    <img src="images/microphone.jpg" alt="microphone" height="349" width="352">
+                    <form>
+                        <div class="formtop">
+                            <label for="timeOfDay">Time of day:</label>
+                            <input type="text" name="timeOfDay" id="timeOfDay" placeholder="example: 7 a.m.">
+
+                            <label for="person1">Person:</label>
+                            <input type="text" name="person1" id="person1" placeholder="example: Bob">
+
+                            <label for="number">Number:</label>
+                            <input type="text" name="number" id="number"
+                            placeholder="example: 67">
+
+                            <button type="submit" id="goToOutput">Submit</button>
+                        </div>
+
+                        <div class="formbottom">
+
+                            <label for="city">City:</label>
+                            <input type="text" name="city" id="city" placeholder="example: San Francisco">
+
+                            <label for="thing">Thing:</label>
+                            <input type="text" name="thing" id="thing"placeholder="example: pencil">
+
+                            <label for="person2">Person:</label>
+                            <input type="text" name="person2" id="person2" placeholder="example: Todd">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="error"></div>
+
+            </section>
+
+            <section id="madlib-output" class="hidden">
+                <div class="top2">
+                    <header>
+                        <h1>Breaking News</h1>
+                    </header>
+                    <h2 id="timeOfDayResult">Time of day</h2>
+                </div>
+
+                <img src="images/reporter.png" alt="reporter" height="318" width="531">
+                
+                <div class="line1">
+                    <p>In <span id="cityResult">city</span>, <span id="person1Result">person</span> was launched into a/an <span id="thingResult">thing</span>.</p>
+                </div>
+
+                <div class="line2">
+                    <p>This has happened <span id="numberResult">number</span> time(s), <span id="person2Result">person</span> is the key suspect.</p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,186 @@
+body{
+    max-width: 1200px;
+    max-height: 750px;
+    color: #333;
+    line-height: 1.5em;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(60, 73, 146);
+    margin: auto;
+}
+
+.top2{
+    display: flex;
+    gap: 5%;
+}
+
+.top2 h1{
+    background-color: rgb(200, 182, 115);
+    padding: 30px;
+    border-radius: 15px;
+    width: fit-content;
+    flex: 1;
+}
+
+.top2 h2{
+    color: rgb(217, 217, 217);
+    flex: 1;
+    transform: translate(75%, 45%);
+    font-size: 2.75em;
+    font-weight: 800;
+}
+
+.line1 p{
+    background-color: rgb(217, 217, 217);
+    padding: 30px;
+    border-radius: 4px;
+    width: 700px;
+    /* transform: translate(0%, -390%); */
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.line2 p{
+    background-color: rgb(105, 0, 0);
+    padding: 30px;
+    border-radius: 4px;
+    width: 800px;
+    /* transform: translate(0%, -425%); */
+    color: rgb(217, 217, 217);
+    margin: 0px;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: #ccc;
+    text-align: center;
+    height: 125px;
+    display: grid;
+    place-content: center;
+}
+
+main {
+    display: flex;
+    width: 900px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+section {
+    flex: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Madlib Page*/
+
+.bottom2{
+    display: flex;
+    gap: 12%;
+}
+
+.bottom2 img{
+    padding-top: 20%;
+}
+
+h1{
+    background-color: rgb(200, 182, 115);
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+    width: fit-content;
+    font-size: 3.125em;
+    font-weight: 800;
+}
+
+form{
+    display: flex;
+    gap: 8%;
+    padding-top: 20px;
+}
+
+.formtop{
+    flex: 1;
+}
+
+.formbottom{
+    flex: 1;
+}
+
+label{
+   font-size: 1.5em; 
+   color: rgb(217, 217, 217);
+   font-weight: 700;
+   padding-bottom: 15px;
+}
+
+input{
+    background-color: rgb(217, 217, 217);
+    border: 0;
+    border-radius: 6px;
+    width: 185px;
+    height: 35px;
+    padding: 10px;
+}
+
+#goToOutput{
+    background-color: rgb(217, 217, 217);
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+}
+
+#reporter{
+    position: absolute;
+    bottom: 100%;
+    left: 20%;
+    transform: translate(230%, 0%);
+}
+
+
+/* swap the display value for
+these two rules below to design
+both the question and answer
+portions of the page. */
+
+.hidden{
+    display: none;
+}
+
+.showing{
+    display: block;
+    position: relative;
+}
+
+#error {
+    margin-top: 15px;
+    color: rgb(217, 217, 217);
+    transform: translate(0%, -1900%);
+    font-size: 1.5em;
+}
+
+#madlib-output img {
+    transform: translate(50%, 0%);
+}
+
+form input, form label {
+    display: block;
+}
+
+form input {
+    margin-bottom: 1em;
+}
+
+span {
+    font-weight: bold;;
+}

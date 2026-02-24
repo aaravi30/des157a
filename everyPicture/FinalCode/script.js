@@ -42,7 +42,7 @@ console.log('reading js');
         })
 
 
-        const myImages1 = ['leLobes.jpg', 'leConch.jpg', 'leHelix.jpg', 'leFHelix.jpg'];
+        const myImages1 = ['lelobes.jpg', 'leConch.jpg', 'leHelix.jpg', 'leFHelix.jpg'];
 
         let currentImage1 = 0;
         const slide1 = document.querySelector('#myimage1');
@@ -73,7 +73,7 @@ console.log('reading js');
 
 
 
-        const myImages2 = ['reLobes.jpg', 'reConch.jpg', 'reDaith.jpg', 'reHelix.jpg'];
+        const myImages2 = ['relobes.jpg', 'reConch.jpg', 'reDaith.jpg', 'reHelix.jpg'];
 
         let currentImage2 = 0;
         const slide2 = document.querySelector('#myimage2');

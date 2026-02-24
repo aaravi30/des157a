@@ -3,7 +3,7 @@ body{
     max-width: 1200px;
     background-color: rgb(65, 0, 79);
     color: rgb(211,211,211);
-     justify-content: center;
+    justify-content: center;
     align-items: center;
     position: relative;
     width: fit-content;
@@ -32,11 +32,13 @@ p{
 }
 
 #leftEar{
+    /* position: relative; */
     transform: translate(450%, -200%);
     border-radius: 100px;
 }
 
 #rightEar{
+    /* position: relative; */
     transform: translate(100%, -300%);
     border-radius: 100px;
 }

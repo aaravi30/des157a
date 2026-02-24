@@ -1,0 +1,156 @@
+body{
+    font-family: "Meie Script", cursive;
+    max-width: 1200px;
+    max-height: 750px;
+    background-color: rgb(65, 0, 79);
+    color: rgb(211,211,211);
+    position: relative;
+    margin: 0 auto;
+}
+
+.grow {
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+}
+
+.grow img {
+	max-width: 100%;
+	transition: all 1s ease;
+}
+
+.grow img:hover {
+	transform: scale(1.25);
+	box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+}
+
+h1{
+    font-size: 4em;
+    padding-top: 10px;
+}
+
+p{
+    font-family: "Crimson Text", serif;
+}
+
+#skullPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#leftEar{
+    position: relative;
+    left: 61%;
+    top: -480px;
+    border-radius: 100px;
+}
+
+#rightEar{
+    position: relative;
+    left: 32%;
+    top: -890px;
+    border-radius: 100px;
+}
+
+#nose{
+    position: relative;
+    left: 21%;
+    top: -760px;
+    border-radius: 100px;
+}
+
+.hidden1 {
+    display: none;
+}
+
+.showing1 {
+    display: block;
+}
+
+.hidden2 {
+    display: none;
+}
+
+.showing2 {
+    display: block;
+}
+
+#overlay1, #overlay2, #overlay3 {
+    position: fixed;
+    background-color: rgba(0,0,0);
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+article img{
+    display: block;
+    margin: 0 auto;
+}
+
+.myButtons1, .myButtons2, .myButtons3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#previous1, #next1, #previous2, #next2, #previous3, #next3{
+    background-color: rgb(211,211,211);
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 1em;
+}
+
+.close1, .close2, .close3 {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(211,211,211);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+.hidden3 {
+    display: none;
+}
+
+.showing3 {
+    display: block;
+}
+
+#text {
+    text-align: right;
+    position: absolute;
+    top: 74%;
+    right: 0;
+    pointer-events: none;
+}
+
+h3{
+    font-size: 3em;
+    padding-top: 15px;
+
+}
+
+article img{
+    border-radius: 10px;
+    padding-bottom: 2%;
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic JavaScript Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Meie+Script&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Life is short</h1>
+        <div id="skullPart">
+            <img src="images/skull.png" alt="skull" id="skull" width="536" height="600">
+        </div>
+
+        <div class="grow">
+            <p><a href="#" class="open1"><img src="images/leftEar.jpg" alt="leftEar" id="leftEar" width="158" height="212">
+            </a></p>
+
+            <p><a href="#" class="open2"><img src="images/rightEar.jpg" alt="rightEar" id="rightEar" width="158" height="212">
+            </a></p>
+
+            <p><a href="#" class="open3"><img src="images/nose.jpg" alt="nose" id="nose" width="200" height="130">
+            </a></p>
+        </div>
+
+        <div id="text">
+            <h1>Get the piercing</h1>
+        </div>
+    </main>
+
+    <section id="overlay1" class="hidden1">
+        <article>
+            <h3>Left Ear Piercings</h3>
+            <img src="images/lelobes.jpg" alt="slideshow image" id="myimage1">
+
+            <div class="myButtons1">
+            <button id="previous1">previous</button> 
+            <button id="next1">next</button>
+            </div>
+            <button class="close1">close</button>
+        </article>
+    </section>
+
+    <section id="overlay2" class="hidden2">
+        <article>
+            <h3>Right Ear Piercings</h3>
+            <img src="images/relobes.jpg" alt="slideshow image 2" id="myimage2">
+            <div class="myButtons2">
+            <button id="previous2">previous</button> 
+            <button id="next2">next</button>
+            </div>
+            <button class="close2">close</button>
+        </article>
+    </section>
+
+    <section id="overlay3" class="hidden3">
+        <article>
+            <h3>Nose Piercings</h3>
+            <img src="images/sideNose.jpg" alt="slideshow image 3" id="myimage3">
+            <div class="myButtons3">
+            <button id="previous3">previous</button> 
+            <button id="next3">next</button>
+            </div>
+            <button class="close3">close</button>
+        </article>
+    </section>
+</body>
+
+</html>

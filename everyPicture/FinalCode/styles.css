@@ -9,7 +9,7 @@ body{
 }
 
 .grow {
-    position: relative;
+    position: absolute;
     overflow: visible;
     z-index: 1;
 }
@@ -34,6 +34,7 @@ p{
 }
 
 #skullPart{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,21 +44,20 @@ p{
 }
 
 #leftEar{
-    position: relative;
+    position: absolute;
     left: 61%;
-    top: -480px;
     border-radius: 100px;
 }
 
 #rightEar{
-    position: relative;
+    position: absolute;
     left: 32%;
     top: -890px;
     border-radius: 100px;
 }
 
 #nose{
-    position: relative;
+    position: absolute;
     left: 21%;
     top: -760px;
     border-radius: 100px;

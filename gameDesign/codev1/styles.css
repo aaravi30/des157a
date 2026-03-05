@@ -1,0 +1,84 @@
+body{
+    background-image: url(images/gameComp.jpg);
+    background-repeat: no-repeat; 
+    background-color: rgb(12,11,12);
+    max-width: 1200px;
+    max-height: 750px;
+}
+
+#header{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-family: "Miss Fajardose", cursive;
+    color: rgb(182, 2, 2);
+    font-size: 5.625em;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: "Limelight", sans-serif;
+    color: rgb(182, 2, 2);
+    font-weight: 400;
+    font-size: 7.5em;
+    margin-bottom: 0px;
+}
+
+h3{
+    font-family: "Donegal One", serif;
+    color: rgb(182, 2, 2);
+    font-size: 1.25em;
+    margin: 0;
+}
+
+p{
+    font-family: "Donegal One", serif;
+    color: rgb(182, 2, 2);
+    font-size: 1em;
+}
+
+h4{
+    font-family: "Miss Fajardose", cursive;
+    color: rgb(182, 2, 2);
+    font-size: 5.625em;
+    font-weight: 400;
+}
+
+h5{
+    font-family: "Limelight", sans-serif;
+    color: rgb(182, 2, 2);
+}
+#game {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 2%;
+}
+
+#game .dice {
+    display: flex; 
+    gap: 10%;
+    padding-right: 2%;
+}
+
+#action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(182, 2, 2);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+}

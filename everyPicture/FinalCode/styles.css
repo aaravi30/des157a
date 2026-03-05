@@ -9,7 +9,7 @@ body{
 }
 
 .grow {
-    position: absolute;
+    position: relative;
     overflow: visible;
     z-index: 1;
 }
@@ -29,12 +29,12 @@ h1{
     padding-top: 10px;
 }
 
-p{
-    font-family: "Crimson Text", serif;
+button{
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
 }
 
 #skullPart{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,20 +44,21 @@ p{
 }
 
 #leftEar{
-    position: absolute;
+    position: relative;
     left: 61%;
+    top: -480px;
     border-radius: 100px;
 }
 
 #rightEar{
-    position: absolute;
+    position: relative;
     left: 32%;
     top: -890px;
     border-radius: 100px;
 }
 
 #nose{
-    position: absolute;
+    position: relative;
     left: 21%;
     top: -760px;
     border-radius: 100px;
@@ -110,9 +111,11 @@ article img{
 #previous1, #next1, #previous2, #next2, #previous3, #next3{
     background-color: rgb(211,211,211);
     border: none;
-    border-radius: 3px;
+    border-radius: 20px;
     padding: 7px;
     font-size: 1em;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .close1, .close2, .close3 {
@@ -120,12 +123,20 @@ article img{
     margin: 0 auto;
     background-color: rgb(211,211,211);
     border: none;
-    border-radius: 20px;
-    padding: 5px;
-    padding-left: 45px;
-    padding-right: 45px;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 80px;
+    padding-right: 80px;
     font-size: 1em;
     margin-top: 30px;
+}
+
+#previous1:hover, #next1:hover, #previous2:hover, #next2:hover, #previous3:hover, #next3:hover, .close1:hover, .close2:hover, .close3:hover {
+    background-color: rgb(197, 158, 210);
+}
+
+#previous1, #next1, #previous2, #next2, #previous3, #next3, .close1, .close2, .close3 {
+    transition: background-color 450ms ease-in;   
 }
 
 .hidden3 {
@@ -145,9 +156,10 @@ article img{
 }
 
 h2{
-    font-size: 3em;
+    font-size: 4.25em;
     padding-top: 15px;
-
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 article img{
